@@ -3,7 +3,11 @@
     "allow": [
       "Bash(echo $SHELL)",
       "Bash(claude mcp:*)",
-      "Bash(cat:*)"
+      "Bash(cat:*)",
+      "mcp__sequential-thinking__sequentialthinking",
+      "SlashCommand(/orchestrate-dynamic-workflow:*)",
+      "WebFetch(domain:github.com)",
+      "WebFetch(domain:raw.githubusercontent.com)"
     ],
     "deny": [],
     "ask": []
