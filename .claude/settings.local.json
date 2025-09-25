@@ -7,7 +7,9 @@
       "mcp__sequential-thinking__sequentialthinking",
       "SlashCommand(/orchestrate-dynamic-workflow:*)",
       "WebFetch(domain:github.com)",
-      "WebFetch(domain:raw.githubusercontent.com)"
+      "WebFetch(domain:raw.githubusercontent.com)",
+      "Bash(mkdir:*)",
+      "Bash(dotnet new:*)"
     ],
     "deny": [],
     "ask": []
